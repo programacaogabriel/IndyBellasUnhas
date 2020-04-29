@@ -26,14 +26,26 @@ body{
 	
 	
 }
-.area-menu-texto{
+#navegacao{
 
 	width: 600px;	
 	height: 450px;
 	position: absolute;
-	left: 400px;
+	left: 20px;
 	padding: 0px;
 	margin: 0px;
+	border: 1px solid red;
 	
 	
+}
+
+li a{
+	line-height:85px;
+	text-decoration: none;
+	display: inline;
+	padding: 30px;
+	margin: 35px;
+	
+	
+
 }
