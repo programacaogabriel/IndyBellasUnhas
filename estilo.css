@@ -3,38 +3,37 @@ body{
 	font-size: 1em;
 }
 
-#area-logo{
+#area-titulo{
 
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	text-align: center;
-	margin: 8px 12px;
-	padding-bottom: 20px;
-}
-
-
-ul li{
-	float: left;
-	display: block;
-}
-ul {
-	width: 820px;
-	float:left;
-	border: 1px solid red;
-	margin: 20px 50%px;
-	padding: px;
-	list-style-type: none;
+	width: 600px;	
+	height:200px;
+	position: relative;
+	left: 450px;
+	padding: 0px;
+	margin: 0px;
+	
 	
 }
 
+#area-menu{
 
-ul a{
-	border: 1px solid red;
-	margin: 90px;
+	width: 600px;	
+	height: 450px;
+	position: relative;
+	left: 400px;
 	padding: 0px;
-	line-height: 80px;
-	list-style: 20px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+	margin: 0px;
+	
+	
 }
+.area-menu-texto{
 
-
+	width: 600px;	
+	height: 450px;
+	position: absolute;
+	left: 400px;
+	padding: 0px;
+	margin: 0px;
+	
+	
+}
