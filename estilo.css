@@ -31,10 +31,11 @@ body{
 	width: 600px;	
 	height: 450px;
 	position: absolute;
-	left: 20px;
+	left: 10px;
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid red;
+	list-style-type: none;
+	text-align: center;
 	
 	
 }
@@ -45,7 +46,20 @@ li a{
 	display: inline;
 	padding: 30px;
 	margin: 35px;
-	
+	font-size: 2em;
+	font-family: Snell Roundhand, cursive;
+	color:purple;
 	
 
 }
+li a:hover {
+	background-position: right bottom;
+	color:#fff;
+}
+li a:visited {
+	background-position: right bottom;
+	color: red;
+}
+
+
+
