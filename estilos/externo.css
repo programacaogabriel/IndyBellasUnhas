@@ -4,7 +4,7 @@
 body{
     font-size: 1em;
     background-color:white;	
-    font-family: "arial";
+    font-family:'Ubuntu', sans-serif;
     width: 100%;
 }
 /*Logotipo*/
@@ -15,6 +15,8 @@ body{
     margin-top: -65px;
     
 }
+
+
 
 
 /*conteudo Principal*/
@@ -62,7 +64,7 @@ a{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Shadows Into Light', cursive;
     font-style: italic;
     font-size: 1.3em;
     color: #A08445;
@@ -107,4 +109,13 @@ a:link{
 .rodape{
     width: 150px;
    
+}
+@media screen and (max-width: 1280px) {
+   #menu,ul,li,a{
+    display: block;
+    font-size: x-large;
+    }
+    .logo{
+        
+}
 }
