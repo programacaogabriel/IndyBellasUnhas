@@ -24,7 +24,7 @@ body{
     margin: 0, auto;
     margin-left: 550px;
     margin-top: -65px;
-    border: 1px solid red;
+    
     
 }
 
@@ -57,6 +57,7 @@ ul {
     width: 100%;
     list-style-type: none;
     text-decoration: none;
+    margin-left: 60px;
     
         
       
@@ -73,9 +74,9 @@ a{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    font-family:'Shadows Into Light', cursive;
+    font-family: 'Cormorant', serif;
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 1.6em;
     color: #A08445;
     
 }
@@ -110,15 +111,35 @@ a:link{
 /* Rodape */
 #rodape{
     
-    border: 5px solid #DFD169;
+    border: 3px solid #DFD169;
     border-left: none;
     border-right: none;
     max-width: 100%;
 }
 .rodape{
-    width: 150px;
+    width: 200px;
+    
    
 }
+h3{
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    color: #A08445;
+    text-align:center;
+    font-size: 28px;
+    margin-top: -100px;
+    
+}
+#rodape p{
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    color: #A08445;
+    text-align:center;
+    font-size: 28px;
+    position: relative;
+    
+}
+/* Dispositivos móveis*/
 @media screen and (max-width: 1100px) {
    #corpo,ul,li,a{
     display: block;
